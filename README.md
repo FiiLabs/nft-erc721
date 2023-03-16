@@ -17,7 +17,13 @@ npx hardhat run scripts/deploy.js
 ### Compile
 
 ```bash
-npx hardhat compile
+yarn compile
+```
+
+### Unit Test
+
+```bash
+yarn test
 ```
 
 ## References
