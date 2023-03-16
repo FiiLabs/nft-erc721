@@ -6,6 +6,14 @@
   "repository": "git@github.com:FiiLabs/nft-erc721.git",
   "author": "MathxH Chen <brainfvck@foxmail.com>",
   "license": "MIT",
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.3.1"
+  },
+  "scripts": {
+    "compile": "npx hardhat compile",
+    "clean": "npx hardhat clean",
+    "test": "npx hardhat test"
+  },
   "devDependencies": {
     "@ethersproject/abi": "^5.4.7",
     "@ethersproject/providers": "^5.4.7",
