@@ -37,7 +37,7 @@ contract GabbyNFTAirdrop is ERC721Enumerable, Ownable {
     }
 
     /// @dev Sets the base token URI prefix.
-    function setBaseURI(string memory _baseTokenURI) public {
+    function setBaseURI(string memory _baseTokenURI) public onlyOwner {
         baseURI = _baseTokenURI;
     }
 }

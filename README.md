@@ -29,14 +29,14 @@ yarn test
 ### upload images to NFT.Storage
 
 ```bash
-# already uploaded to https://bafybeicewozb5c747lfxouvntmfbkilekfmen3gimjkk6utvfu3sktk26m.ipfs.nftstorage.link/  for testing
+# already uploaded to https://bafybeicewozb5c747lfxouvntmfbkilekfmen3gimjkk6utvfu3sktk26m.ipfs.nftstorage.link/images/  for testing
 npx ipfs-car --pack images --output images.car
 ```
 
 ### upload metadata to NFT.Storage
 
 ```bash
-# already uploaded to https://bafybeiaaoi5r2rhltbjdgk3gh277cgc3egqlagmikjm6zgt37qvxawelya.ipfs.nftstorage.link/ for testing
+# already uploaded to https://bafybeiaaoi5r2rhltbjdgk3gh277cgc3egqlagmikjm6zgt37qvxawelya.ipfs.nftstorage.link/metadata/ for testing
 npx ipfs-car --pack metadata --output metadata.car
 ```
 
