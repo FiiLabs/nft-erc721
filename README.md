@@ -48,5 +48,7 @@ npx ipfs-car --pack metadata --output metadata.car
 - https://blog.thirdweb.com/guides/how-to-airdrop-nfts-to-a-list-of-wallets/
 - https://www.binance.com/en/blog/nft/getting-started-and-staying-safe-with-nft-airdrops-3968580475401030464
 - https://docs.opensea.io/docs/part-3-adding-metadata-and-payments-to-your-contract
+- https://docs.opensea.io/docs/2-adding-metadata
+- https://docs.opensea.io/docs/3-viewing-your-items-on-opensea
 
 
