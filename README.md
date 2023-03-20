@@ -40,6 +40,15 @@ npx ipfs-car --pack images --output images.car
 npx ipfs-car --pack metadata --output metadata.car
 ```
 
+### Mumbai testnet
+
+This contract address:
+https://mumbai.polygonscan.com/address/0x0c154bd3539ac3975fc98e2517c4e58a8a1865f9#code
+
+### Opensea testnet Itmes
+
+https://testnets.opensea.io/collection/gabby-nft
+
 ## References
 
 - https://github.com/jklepatch/eattheblocks/blob/master/screencast/394-nft-airdrop
