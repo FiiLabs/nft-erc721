@@ -1,7 +1,6 @@
 // SPDX-License-Identifier: UNLICENSED
 pragma solidity ^0.8.7;
 
-import "hardhat/console.sol";
 import "@openzeppelin/contracts/utils/Counters.sol";
 import "@openzeppelin/contracts/access/Ownable.sol";
 import "@openzeppelin/contracts/token/ERC721/extensions/ERC721Enumerable.sol";
@@ -14,7 +13,6 @@ contract GabbyNFTAirdrop is ERC721Enumerable, Ownable {
     
     constructor() ERC721("Gabby NFT", "GAT") {
         baseURI = "";
-        console.log("NFT airdrop Contract has been deployed!");
     }
 
     // Airdrop NFTs
