@@ -10,8 +10,10 @@ contract GabbyNFTAirdrop is ERC721Enumerable, Ownable {
     using Counters for Counters.Counter;
     
     Counters.Counter private _tokenIds;
+    string public baseURI;
     
     constructor() ERC721("Gabby NFT", "GAT") {
+        baseURI = "";
         console.log("NFT airdrop Contract has been deployed!");
     }
 
@@ -27,5 +29,15 @@ contract GabbyNFTAirdrop is ERC721Enumerable, Ownable {
         uint newTokenID = _tokenIds.current();
         _safeMint(wAddress, newTokenID);
         _tokenIds.increment();
+    }
+
+     /// @dev Returns an URI for a given token ID
+    function _baseURI() internal view virtual override returns (string memory) {
+        return baseURI;
+    }
+
+    /// @dev Sets the base token URI prefix.
+    function setBaseURI(string memory _baseTokenURI) public {
+        baseURI = _baseTokenURI;
     }
 }
