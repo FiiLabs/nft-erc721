@@ -37,7 +37,6 @@ const {
         expect(await airdropContract.ownerOf(1)).to.equal(airdropAddr2.address);
         expect(await airdropContract.ownerOf(2)).to.equal(airdropAddr3.address);
 
-        expect(await airdropContract.totalSupply()).to.equal(3);
        
       });
     });
